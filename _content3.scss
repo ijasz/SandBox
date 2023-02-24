@@ -1,0 +1,13 @@
+.content3 {
+    margin-block: 10rem;
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+
+        img {
+            width: 100%;
+        }
+    }
+}
